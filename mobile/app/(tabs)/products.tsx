@@ -107,7 +107,7 @@ export default function ProductScreen() {
         <View style={s.container}>
             {/* 🌾 Banner */}
             <View style={s.bannerBox}>
-                <Image source={require('@/assets/images/agri-banner.jpg')} style={s.bannerImage}/>
+                <Image source={require('@/assets/images/banner4.jpg')} style={s.bannerImage}/>
                 <View style={s.bannerText}>
                     <Text style={s.bannerTitle}>Nông phẩm sạch cho mọi nhà</Text>
                     <Text style={s.bannerSub}>Phân bón, hạt giống & dụng cụ trồng trọt</Text>

@@ -69,7 +69,7 @@ export default function RegisterScreen() {
                 {/* Header */}
                 <View style={s.header}>
                     <Image
-                        source={require('@/assets/images/agri-register-banner.jpg')}
+                        source={require('@/assets/images/banner4.jpg')}
                         style={s.image}
                         resizeMode="contain"
                     />

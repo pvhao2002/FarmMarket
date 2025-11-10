@@ -76,7 +76,7 @@ export default function TabsLayout() {
 
                 {/* 📦 Đơn hàng */}
                 <Tabs.Screen
-                    name="orders"
+                    name="history"
                     options={{
                         title: 'Đơn hàng',
                         tabBarIcon: ({ color, size }) => (

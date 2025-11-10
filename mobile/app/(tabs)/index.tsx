@@ -95,7 +95,7 @@ export default function HomeScreen() {
 
             {/* Banner */}
             <View style={s.bannerContainer}>
-                <Image source={require('@/assets/images/agri-banner.jpg')} style={s.bannerImage}/>
+                <Image source={require('@/assets/images/banner3.png')} style={s.bannerImage}/>
                 <View style={s.bannerTextBox}>
                     <Text style={s.bannerTitle}>Nông nghiệp xanh 🌱</Text>
                     <Text style={s.bannerSubtitle}>Cùng bạn vun trồng tương lai bền vững</Text>
@@ -183,7 +183,7 @@ export default function HomeScreen() {
 
             {/* Featured Banner */}
             <View style={s.featuredBox}>
-                <Image source={require('@/assets/images/fertilizer-banner.jpg')} style={s.featuredImg}/>
+                <Image source={require('@/assets/images/banner3.png')} style={s.featuredImg}/>
             </View>
         </ScrollView>
     );

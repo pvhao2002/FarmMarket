@@ -30,8 +30,8 @@ export default function PaymentSuccessScreen() {
                 <Image
                     source={
                         isSuccess
-                            ? require('@/assets/images/payment-success.png')
-                            : require('@/assets/images/payment-fail.png')
+                            ? require('@/assets/images/payment-success.jpg')
+                            : require('@/assets/images/payment-fail.jpg')
                     }
                     style={s.image}
                 />

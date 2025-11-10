@@ -1,0 +1,111 @@
+2025-11-10T14:14:15.627+07:00  INFO 28492 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Starting FarmMarketApplication using Java 22.0.2 with PID 28492 (C:\Users\kira.pham\code\FarmMarket\backend\target\classes started by Kira.Pham in C:\Users\kira.pham\code\FarmMarket)
+2025-11-10T14:14:15.630+07:00  INFO 28492 --- [farm-market-api] [main] com.market.FarmMarketApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T14:14:17.273+07:00  INFO 28492 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T14:14:17.390+07:00  INFO 28492 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
+2025-11-10T14:14:18.734+07:00  INFO 28492 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8836 (http)
+2025-11-10T14:14:18.755+07:00  INFO 28492 --- [farm-market-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T14:14:18.756+07:00  INFO 28492 --- [farm-market-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-11-10T14:14:18.863+07:00  INFO 28492 --- [farm-market-api] [main] o.a.c.c.C.[.[.[/farm-market-api]         : Initializing Spring embedded WebApplicationContext
+2025-11-10T14:14:18.864+07:00  INFO 28492 --- [farm-market-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3185 ms
+2025-11-10T14:14:19.149+07:00  INFO 28492 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T14:14:19.447+07:00  INFO 28492 --- [farm-market-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23a78c77
+2025-11-10T14:14:19.451+07:00  INFO 28492 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T14:14:19.609+07:00  INFO 28492 --- [farm-market-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T14:14:19.729+07:00  INFO 28492 --- [farm-market-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-10T14:14:19.798+07:00  INFO 28492 --- [farm-market-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T14:14:20.463+07:00  INFO 28492 --- [farm-market-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T14:14:20.569+07:00  WARN 28492 --- [farm-market-api] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T14:14:21.976+07:00  INFO 28492 --- [farm-market-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T14:14:22.779+07:00  INFO 28492 --- [farm-market-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T14:14:23.357+07:00  INFO 28492 --- [farm-market-api] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-10T14:14:24.273+07:00  INFO 28492 --- [farm-market-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-10T14:14:24.965+07:00  INFO 28492 --- [farm-market-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-11-10T14:14:25.659+07:00  INFO 28492 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8836 (http) with context path '/farm-market-api'
+2025-11-10T14:14:25.667+07:00  INFO 28492 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Started FarmMarketApplication in 10.71 seconds (process running for 11.833)
+2025-11-10T14:25:55.485+07:00  INFO 28492 --- [farm-market-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T14:25:55.488+07:00  INFO 28492 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T14:25:55.500+07:00  INFO 28492 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T14:26:01.839+07:00  INFO 12388 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Starting FarmMarketApplication using Java 22.0.2 with PID 12388 (C:\Users\kira.pham\code\FarmMarket\backend\target\classes started by Kira.Pham in C:\Users\kira.pham\code\FarmMarket)
+2025-11-10T14:26:01.841+07:00  INFO 12388 --- [farm-market-api] [main] com.market.FarmMarketApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T14:26:03.981+07:00  INFO 12388 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T14:26:04.065+07:00  INFO 12388 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 5 JPA repository interfaces.
+2025-11-10T14:26:05.005+07:00  INFO 12388 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8836 (http)
+2025-11-10T14:26:05.018+07:00  INFO 12388 --- [farm-market-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T14:26:05.019+07:00  INFO 12388 --- [farm-market-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-11-10T14:26:05.086+07:00  INFO 12388 --- [farm-market-api] [main] o.a.c.c.C.[.[.[/farm-market-api]         : Initializing Spring embedded WebApplicationContext
+2025-11-10T14:26:05.086+07:00  INFO 12388 --- [farm-market-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3201 ms
+2025-11-10T14:26:05.384+07:00  INFO 12388 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T14:26:05.557+07:00  INFO 12388 --- [farm-market-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75f32817
+2025-11-10T14:26:05.560+07:00  INFO 12388 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T14:26:05.674+07:00  INFO 12388 --- [farm-market-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T14:26:05.754+07:00  INFO 12388 --- [farm-market-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-10T14:26:05.799+07:00  INFO 12388 --- [farm-market-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T14:26:06.145+07:00  INFO 12388 --- [farm-market-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T14:26:06.248+07:00  WARN 12388 --- [farm-market-api] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T14:26:07.372+07:00  INFO 12388 --- [farm-market-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T14:26:07.518+07:00  INFO 12388 --- [farm-market-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T14:26:08.440+07:00  INFO 12388 --- [farm-market-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-11-10T14:26:08.543+07:00  INFO 12388 --- [farm-market-api] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-10T14:26:09.594+07:00  INFO 12388 --- [farm-market-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-10T14:26:10.302+07:00  INFO 12388 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8836 (http) with context path '/farm-market-api'
+2025-11-10T14:26:10.312+07:00  INFO 12388 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Started FarmMarketApplication in 9.177 seconds (process running for 10.183)
+2025-11-10T14:27:48.083+07:00  INFO 12388 --- [farm-market-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T14:27:48.085+07:00  INFO 12388 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T14:27:48.096+07:00  INFO 12388 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T14:27:50.933+07:00  INFO 22860 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Starting FarmMarketApplication using Java 22.0.2 with PID 22860 (C:\Users\kira.pham\code\FarmMarket\backend\target\classes started by Kira.Pham in C:\Users\kira.pham\code\FarmMarket)
+2025-11-10T14:27:50.936+07:00  INFO 22860 --- [farm-market-api] [main] com.market.FarmMarketApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T14:27:52.110+07:00  INFO 22860 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T14:27:52.178+07:00  INFO 22860 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 5 JPA repository interfaces.
+2025-11-10T14:27:52.913+07:00  INFO 22860 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8386 (http)
+2025-11-10T14:27:52.923+07:00  INFO 22860 --- [farm-market-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T14:27:52.924+07:00  INFO 22860 --- [farm-market-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-11-10T14:27:52.988+07:00  INFO 22860 --- [farm-market-api] [main] o.a.c.c.C.[.[.[/farm-market-api]         : Initializing Spring embedded WebApplicationContext
+2025-11-10T14:27:52.990+07:00  INFO 22860 --- [farm-market-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1988 ms
+2025-11-10T14:27:53.198+07:00  INFO 22860 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T14:27:53.366+07:00  INFO 22860 --- [farm-market-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b485c8b
+2025-11-10T14:27:53.369+07:00  INFO 22860 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T14:27:53.470+07:00  INFO 22860 --- [farm-market-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T14:27:53.548+07:00  INFO 22860 --- [farm-market-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-10T14:27:53.600+07:00  INFO 22860 --- [farm-market-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T14:27:53.976+07:00  INFO 22860 --- [farm-market-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T14:27:54.068+07:00  WARN 22860 --- [farm-market-api] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T14:27:55.130+07:00  INFO 22860 --- [farm-market-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T14:27:55.309+07:00  INFO 22860 --- [farm-market-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T14:27:56.224+07:00  INFO 22860 --- [farm-market-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-11-10T14:27:56.296+07:00  INFO 22860 --- [farm-market-api] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-10T14:27:57.092+07:00  INFO 22860 --- [farm-market-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-10T14:27:57.716+07:00  INFO 22860 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8386 (http) with context path '/farm-market-api'
+2025-11-10T14:27:57.726+07:00  INFO 22860 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Started FarmMarketApplication in 7.442 seconds (process running for 8.553)
+2025-11-10T14:28:02.527+07:00  INFO 22860 --- [farm-market-api] [http-nio-0.0.0.0-8386-exec-1] o.a.c.c.C.[.[.[/farm-market-api]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T14:28:02.528+07:00  INFO 22860 --- [farm-market-api] [http-nio-0.0.0.0-8386-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T14:28:02.530+07:00  INFO 22860 --- [farm-market-api] [http-nio-0.0.0.0-8386-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-10T16:29:26.003+07:00  INFO 22860 --- [farm-market-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T16:29:26.166+07:00  INFO 22860 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T16:29:26.216+07:00  INFO 22860 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T16:29:40.634+07:00  INFO 18468 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Starting FarmMarketApplication using Java 22.0.2 with PID 18468 (C:\Users\kira.pham\code\FarmMarket\backend\target\classes started by Kira.Pham in C:\Users\kira.pham\code\FarmMarket)
+2025-11-10T16:29:40.640+07:00  INFO 18468 --- [farm-market-api] [main] com.market.FarmMarketApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T16:29:44.316+07:00  INFO 18468 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T16:29:44.507+07:00  INFO 18468 --- [farm-market-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 5 JPA repository interfaces.
+2025-11-10T16:29:46.056+07:00  INFO 18468 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8386 (http)
+2025-11-10T16:29:46.075+07:00  INFO 18468 --- [farm-market-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T16:29:46.075+07:00  INFO 18468 --- [farm-market-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-11-10T16:29:46.171+07:00  INFO 18468 --- [farm-market-api] [main] o.a.c.c.C.[.[.[/farm-market-api]         : Initializing Spring embedded WebApplicationContext
+2025-11-10T16:29:46.172+07:00  INFO 18468 --- [farm-market-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5373 ms
+2025-11-10T16:29:46.497+07:00  INFO 18468 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T16:29:46.885+07:00  INFO 18468 --- [farm-market-api] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a5ce4b8
+2025-11-10T16:29:46.889+07:00  INFO 18468 --- [farm-market-api] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T16:29:47.059+07:00  INFO 18468 --- [farm-market-api] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T16:29:47.160+07:00  INFO 18468 --- [farm-market-api] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-11-10T16:29:47.219+07:00  INFO 18468 --- [farm-market-api] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T16:29:47.665+07:00  INFO 18468 --- [farm-market-api] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T16:29:47.823+07:00  WARN 18468 --- [farm-market-api] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10T16:29:49.526+07:00  INFO 18468 --- [farm-market-api] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T16:29:49.821+07:00  INFO 18468 --- [farm-market-api] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T16:29:51.192+07:00  INFO 18468 --- [farm-market-api] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-11-10T16:29:51.277+07:00  INFO 18468 --- [farm-market-api] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-10T16:29:52.675+07:00  INFO 18468 --- [farm-market-api] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-10T16:29:53.801+07:00  INFO 18468 --- [farm-market-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8386 (http) with context path '/farm-market-api'
+2025-11-10T16:29:53.818+07:00  INFO 18468 --- [farm-market-api] [main] com.market.FarmMarketApplication         : Started FarmMarketApplication in 14.634 seconds (process running for 17.795)
+2025-11-10T16:32:53.445+07:00  INFO 18468 --- [farm-market-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T16:32:53.448+07:00  INFO 18468 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T16:32:53.465+07:00  INFO 18468 --- [farm-market-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,164 @@
+/* 🌿 Container */
+.agri-user-table-container {
+    padding: 1.5rem;
+    background: #f5f7fa;
+    min-height: 100vh;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+/* 🌾 Toolbar */
+.agri-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.agri-toolbar h2 {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+/* 🔍 Search form */
+.agri-search-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.agri-search-form input {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 240px;
+    background: #ffffff;
+}
+
+.agri-search-form button {
+    background: linear-gradient(90deg, #4caf50, #2e7d32);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    font-weight: 500;
+}
+
+.agri-search-form button:hover {
+    background: linear-gradient(90deg, #43a047, #1b5e20);
+}
+
+/* 🌀 Loading */
+.agri-loading {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+/* 📋 Table */
+.agri-user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.agri-user-table th,
+.agri-user-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.agri-user-table th {
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.agri-user-table tbody tr:hover {
+    background: #f1f8e9;
+    transition: 0.2s;
+}
+
+/* ✅ Status */
+.agri-status-active {
+    background: #c8e6c9;
+    color: #1b5e20;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+.agri-status-inactive {
+    background: #ffebee;
+    color: #c62828;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+/* 🧑 Role Badge */
+.agri-role-badge {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+.agri-role-badge.admin {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.agri-role-badge.user {
+    background: #f1f8e9;
+    color: #4caf50;
+}
+
+/* 🪴 No data */
+.agri-no-data {
+    text-align: center;
+    color: #9ca3af;
+    padding: 1rem;
+    font-style: italic;
+}
+
+/* 🔢 Pagination */
+.agri-pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.agri-page-btn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.agri-page-btn:hover:not(:disabled) {
+    background: #2e7d32;
+}
+
+.agri-page-btn:disabled {
+    background: #c8e6c9;
+    cursor: not-allowed;
+}
+
+.agri-page-info {
+    color: #333;
+    font-weight: 500;
+}

@@ -1,0 +1,184 @@
+.agri-dashboard-modern {
+    background: #f5f7fa;
+    min-height: 100vh;
+    padding: 2rem;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/* 🌿 Banner */
+.agri-banner {
+    background: linear-gradient(90deg, #e8f5e9, #f1f8e9);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 14px rgba(76, 175, 80, 0.1);
+}
+
+.agri-banner-text {
+    max-width: 60%;
+}
+
+.agri-banner h1 {
+    font-size: 1.8rem;
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+
+.agri-banner p {
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+.agri-tip {
+    background: #c8e6c9;
+    color: #1b5e20;
+    border-left: 4px solid #4caf50;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.agri-banner-img {
+    width: 220px;
+    height: auto;
+}
+
+/* ===== KPI Grid ===== */
+.agri-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1.2rem;
+}
+
+.agri-stat {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    border-left: 5px solid #4caf50;
+}
+
+.agri-stat .icon {
+    font-size: 1.8rem;
+}
+
+.agri-stat h4 {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.agri-stat p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.agri-stat.success { border-left-color: #388e3c; }
+.agri-stat.warning { border-left-color: #fbc02d; }
+.agri-stat.secondary { border-left-color: #81c784; }
+
+.agri-stat:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+/* ===== Chart Modern ===== */
+.agri-chart-modern {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.chart-header h3 {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.chart-header p {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* ===== Table Section ===== */
+.agri-bottom-modern {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.table-header h3 {
+    color: #388e3c;
+    margin-bottom: 4px;
+}
+
+.table-header p {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.agri-table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.agri-table-wrapper th,
+.agri-table-wrapper td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.agri-table-wrapper th {
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+.agri-table-wrapper tbody tr:hover {
+    background: #f1f8e9;
+}
+
+.no-data {
+    text-align: center;
+    color: #9ca3af;
+    font-style: italic;
+    padding: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .agri-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .agri-banner-text {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .agri-banner-img {
+        width: 160px;
+    }
+}
